@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+--Ligh-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+
+--Violet-blue: hsl(256, 72%, 46%, 1);
+--Persian-blue: hsl(241, 72%, 46%, 0);
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-avender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+*{
+    margin: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+body{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerroxo{
+    background-color: var(--Violet-blue);
+    height: 700px;
+    width: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.numeros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    flex-direction: column;
+    background:linear-gradient(to top,  var(--Violet-blue), var(--Light-royal-blue));
+
+}
+.containerbranco{
+    background-color: #FFFFFF;
+    height: 700px;
+    width: 500px;
+
+}
